@@ -26,8 +26,17 @@ La primera vez descargara todas las dependencias de maven y las necesitadas por 
 
 ## Run
 
+### Spring Boot App
 Para correrlo podemos ejecutar el siguiente comando y la aplicacion correra en el puerto 8080.
 
 ```bash
 sudo sh ./mvnw spring-boot:run
+```
+
+### Tests
+
+Para correr los tests podemos utilizar:
+
+```bash
+sudo ./mvnw test
 ```
